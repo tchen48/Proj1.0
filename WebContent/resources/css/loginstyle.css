@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;	
+}
+
+h1{
+	text-shadow:3px 3px 3px #C0C0C0;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+h3{
+	text-shadow:2px 2px 2px #C0C0C0;
+	font-family: Arial;
+}
+
+button{
+	font-family: Arial;
+}
+
+
+#content{	
+	margin: 15% auto 20% auto;
+	text-align: center;
+	height: 100%;
+}
+
+.container{
+	height: 100%;
+}
+
+#btndiv{
+	margin-top:3%;
+}
+
+#logindiv{
+	text-align: left;
+}
+
+a, #logindiv, input{
+	font-family: Arial;
+}
+
+#alertdiv{
+	height: 50px;	
+}

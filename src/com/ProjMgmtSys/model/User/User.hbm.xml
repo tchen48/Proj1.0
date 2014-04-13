@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.ProjMgmtSys.model.User">
+	<class name="User" table="user">
+		<id name="userId" column="userId">
+			<generator class="increment" />
+		</id>	
+		<property name="userName">
+			<column name="username" length="50" not-null="true" />
+		</property>
+		
+		<property name="password">
+			<column name="password" length="20" not-null="true"/>
+		</property>
+		
+		<property name="userType">
+			<column name="usertpe"  not-null="true"/>
+		</property>
+		
+		<property name="groId">
+			<column name="groId" not-null="true"/>
+		</property>
+		
+		<property name="depId">
+			<column name="depId" not-null="true"/>
+		</property>
+		
+		<property name="fail">
+			<column name="fail" not-null="true"/>
+		</property>
+		
+		<property name="block">
+			<column name="block" not-null="true"/>
+		</property>
+	</class>
+</hibernate-mapping>

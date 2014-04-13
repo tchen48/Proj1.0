@@ -1,0 +1,191 @@
+html, body {height:100%;width:100%}
+
+body{
+	padding-top: 40px;
+	margin: 0;
+	overflow-x:hidden;
+	background-color: #E8E8E8;
+	color: black;
+}
+
+h1{
+	text-shadow:3px 3px 3px #C0C0C0;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+h3{
+	text-shadow:2px 2px 2px #C0C0C0;
+	font-family: Arial;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+	
+a:hover{
+	text-decoration: none;
+	color: #1B7FCC;
+	font-weight:bold;
+}
+
+#navdiv{
+	padding-left: 2%;
+	background-color: #E8E8E8;
+	-webkit-box-shadow:2px 0px 6px #000;
+	-moz-box-shadow:2px 0px 6px #000;
+	background: transparent;
+	font-family: 'Coda', cursive;
+	font-weight:bold;
+}
+
+#navdiv:hover, #navdiv.hover{
+	background: rgba(232,232,232,0.8);
+}
+
+.header{
+	position: relative;	
+	background-size: cover;
+	width: 100%;
+	height: 350px;
+	padding: 2% 15% 0 15%;
+	text-shadow:1px 1px 1px #ffffff;
+	font-family: 'Transformers','Orbitron', sans-serif;
+	margin-bottom: 40px;
+}
+
+.subdiv{
+	text-align: left;						
+	border:2px #404040 solid;
+	font: 14px;
+	padding: 20px 0 10px 0;
+	font-family: arial;
+	border-radius: 5px;
+	margin-bottom: 60px;
+	background-color: white;
+	z-index: 2;
+}
+
+.labelcenter label, .labelcenter .checkbox, .labelcenter .checkbox input{
+	height: 30px; 
+	line-height: 30px; 
+	padding: 0;
+}
+
+.subdiv:hover,.subdiv.hover {
+   border:2px solid #C8C8C8;
+   -webkit-box-shadow:2px 2px 6px #000;
+	-moz-box-shadow:2px 2px 6px #000;
+}
+
+#infolist{	
+	Padding-top:20px;					
+}
+
+.divtitle{
+	font: bold 14px;
+	font-family: 'Roboto Condensed', consolas;
+	color: #1B7FCC;
+}
+
+#visitorcountdiv{
+	padding-bottom: 20px;
+}
+
+#clustrmaps-widget{
+	margin:auto auto;
+}
+
+.next{	
+	text-align: center;
+	line-height: 50px;	
+	height: 70px;
+	width: 80px;
+    position:absolute;
+    top:50%;	
+	right:5%;	
+	border-radius: 5px;	
+	background: transparent;
+}
+
+
+.prev{	
+	text-align: center;
+	line-height: 50px;	
+	height: 70px;
+	width: 80px;
+    position:absolute;
+    top:50%;	
+	left:5%;	
+	border-radius: 5px;	
+	background: transparent;
+}
+
+.next:hover, .prev:hover, #navdiv.hover{
+	background: rgba(232,232,232,0.5);
+	-webkit-box-shadow:2px 2px 6px #000;
+	-moz-box-shadow:2px 2px 6px #000;
+}
+
+.next a:hover, .prev a:hover{
+	color: grey;
+	text-shadow:1px 1px 1px #ffffff;
+}
+
+.container-fluid{
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1000px;
+}
+
+.navbar-form{
+	margin-right: 5%;
+}
+
+.navbar-form input{
+	font-family: 'Coda', cursive;
+}
+
+#searchbtn{
+	font-family: 'Coda', cursive;
+} 
+
+@font-face{
+	font-family: "Transformers";
+	src: url(../Fonts/Transformers.ttf) format("truetype");
+}
+
+.footer{
+	/* top: 70%; */
+	bottom: 100%;
+	height: 150px;	
+	width: 100%;
+	background-color: #484848;
+	font-family: 'Coda', cursive;
+	font-weight:bold;
+	color: #C8C8C8;
+	-webkit-box-shadow:2px 0px 6px #000;
+	-moz-box-shadow:2px 0px 6px #000;
+}
+
+.footer container-fluid{
+	width: 100%;
+}
+
+.footer h4{
+	margin-top: 20px;
+}
+
+.footer img{
+	margin: 6px;
+	border-radius: 5px;
+	border:2px #484848 solid;
+}
+
+.footer img:hover{
+	-webkit-box-shadow:2px 0px 6px #000;
+	-moz-box-shadow:2px 0px 6px #000;
+	border:2px #C8C8C8 solid;
+	border-radius: 5px;
+	background: rgba(232,232,232,0.5);
+}
